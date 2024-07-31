@@ -1,0 +1,54 @@
+.container{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+       padding: 0 8px;
+}
+
+.container h1{
+    margin: 14px 0;
+}
+
+.container img{
+    border-radius: 8px;
+    width: 900px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+}
+.container h3{
+    margin-top: 14px;
+}
+.container span{
+    margin: 14px 0;
+}
+
+.botao-div button{
+margin-right: 12px;
+margin-top: 14px;
+margin-left: 0;
+font-size: 20px;
+border: 0;
+outline: none;
+padding: 10px;
+border-radius: 5px;
+cursor: pointer;
+color: black;
+transition: all 0.4s;
+}
+
+.botao-div button:hover{
+    background-color: brown;
+    color: #fff ;
+}
+.botao-div  a:hover{
+    
+    color: #fff;
+}
+
+.botao-div a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s;
+}
